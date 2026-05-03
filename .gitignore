@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Abaikan environment variables
+.env
+
+# Abaikan folder virtual environment
+venv/
+
+# Abaikan file cache python
+__pycache__/
+*.pyc
