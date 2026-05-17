@@ -1,0 +1,15 @@
+artifact_path: file:///C:/Users/yuhanidz/aeris-air-quality/mlruns/1/models/m-c4928f56364b4de798744e93769600da/artifacts
+flavors:
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.12.0
+model_id: m-c4928f56364b4de798744e93769600da
+model_size_bytes: 6750738
+model_uuid: m-c4928f56364b4de798744e93769600da
+prompts: null
+run_id: 58e3876828e64386b71da090de8fa23c
+utc_time_created: '2026-05-17 07:40:56.497101'
