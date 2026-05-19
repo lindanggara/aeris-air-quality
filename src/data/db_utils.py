@@ -5,6 +5,13 @@ from dotenv import load_dotenv
 load_dotenv()
 
 def get_db_connection():
+    # 1. Coba ambil URL lengkap dari environment (Saat jalan di Railway)
+    db_url = os.getenv("DATABASE_URL")
+    
+    if db_url:
+        return psycopg2.connect(db_url)
+        
+    # 2. Fallback: Jika tidak ada, pakai cara lama (Saat jalan di laptop)
     return psycopg2.connect(
         host=os.getenv("DB_HOST"),
         database=os.getenv("DB_NAME"),
